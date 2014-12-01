@@ -1,6 +1,7 @@
 angular-live-search
 ===========
-
+ - Clone of https://github.com/mauriciogentile/angular-livesearch but with added css styles and bower hook.. cheers!
+ - 
 ##Usage
 
 ### Markup
