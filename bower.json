@@ -1,0 +1,23 @@
+{
+  "name": "ng-autocomplete",
+  "version": "0.0.1",
+  "homepage": "https://github.com/junajan/angular-livesearch",
+  "authors": [
+    "junajan <mail@janjuna.cz>"
+  ],
+  "description": "Autocomplete working with objects",
+  "main": "ngAutocomplete.min.js",
+  "keywords": [
+    "autocomplete",
+    "angular",
+    "livesearch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
