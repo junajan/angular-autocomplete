@@ -8,11 +8,11 @@ angular-live-search
 
 ```html
 <div ng-controller='MyController'>
-<live-search id="search1" type="text"
-  live-search-callback="mySearchCallback"
-  live-search-item-template="{{result.city}}<strong>{{result.state}}</strong><b>{{result.country}}</b>"
-  live-search-select="fullName"
-  ng-model="search1" ></live-search>
+ <autocomplete id="search1" type="text"
+search-callback="mySearchCallback"
+result-template="{{result.city}}<strong>{{result.state}}</strong><b>{{result.country}}</b>"
+attribute-name="fullName"
+ng-model="mySearch"></autocomplete>
 </div>
 ```
 
@@ -20,7 +20,7 @@ angular-live-search
 
 ```js
 //define app module with dependency
-var app = angular.module("MyApp", ["LiveSearch"]);
+var app = angular.module("MyApp", ["ngAutocomplete"]);
 app.controller("MyController", function($scope, $http, $q, $window) {
    $scope.search1 = "";
    //your search callback
