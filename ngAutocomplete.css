@@ -5,16 +5,14 @@ ul.searchresultspopup {
 	margin-top: 0px;
 	padding: 0px;
 	z-index: 99999!important;
-	position: fixed;
 	background-color: white;
-	/*max-height:200px;*/
 	border-collapse: separate;
 	overflow-y: hidden;
 }
 
 ul.searchresultspopup > li {
 	cursor: pointer;
-	padding-left: 1px;
+  	padding: 5px;
 	text-align: left;
 	list-style: none;
 	line-height: 20px;
@@ -35,8 +33,6 @@ ul.searchresultspopup b {
 ul.searchresultspopup strong {
 	color: green;
 }
-/*Live Search styles end*/
-
 
 .livesearch {
 	position: relative;
